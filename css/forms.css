@@ -1,5 +1,14 @@
-textfields {
+.formchallenge {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
- }
+  justify-content: center;
+  text-align: center;
+  
+          }
+#heading {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  font-size: large;
+} 

@@ -8,7 +8,7 @@
     </head>
 
 	<header id="heading">
-		<p> Registration form</p>
+		<p> Registration Form</p>
 	</header>
 	
 	<body>        
@@ -16,10 +16,40 @@
 			<form action="info.php" method="post">
 
 				<div class="formchallenge">
-				 	<p> <label for="name">Name:</label>
-					<input type="text" class="textfields" ïd="name" name="username" required>
+					<p> <label for="userid">User id:</label>
+				   <input type="text" ïd="userid" name="userid" required>
+				   </p>
+			   </div>
+
+			   <div class="formchallenge">
+					<p><label for="password">Password:</label>
+					<input type="text" ïd="password" name="userpassword" required>
 					</p>
 				</div>
+
+				<div class="formchallenge">
+				 	<p> <label for="name">Name:</label>
+					<input type="text" ïd="name" name="username" required>
+					</p>
+				</div>
+
+				<div class="formchallenge">
+					<p> <label for="address">Address:</label>
+				   <input type="text" ïd="address" name="useraddress" required>
+				   </p>
+			   	</div>
+
+			   	<div class="formchallenge">
+					<p> <label for="country">Country:</label>
+			   		<input type="text" ïd="country" name="usercountry" required>
+			   		</p>
+		   		</div>
+
+		   		<div class="formchallenge">
+					<p> <label for="zipcode">ZIP Code:</label>
+		   			<input type="text" ïd="zipcode" name="userzip" required>
+		   			</p>
+	   			</div>
 
 				<div class="formchallenge">
 					<p><label for="mail">Email:</label>
@@ -28,26 +58,20 @@
 				</div>
 
 				<div class="formchallenge">
-					<p><label for="msg">Message:</label>
+					<p><label for="sex">Sex:</label>
+					<input type="radio" ïd="sex" name="usersex" required>
+					</p>
+				</div>
+
+				<div class="formchallenge">
+					<p><label for="language">Language:</label>
+					<input type="checkbox" ïd="language" name="userlanguage" required>
+					</p>
+				</div>
+
+				<div class="formchallenge">
+					<p><label for="msg">About:</label>
 					<textarea ïd="msg" name="username"></textarea>
-					</p>
-				</div>
-
-				<div class="formchallenge">
-					<p><label for="password">Password:</label>
-					<input type="text" ïd="password" name="userpassword" required>
-					</p>
-				</div>
-
-				<div class="formchallenge">
-					<p><label for="happy">Are you happy?:</label>
-					<input type="checkbox" ïd="happy" name="happiness" required>
-					</p>
-				</div>
-
-				<div class="formchallenge"></div>
-					<p><label for="love">Are you loved?:</label>
-					<input type="radio" ïd="love" name="loved" required>
 					</p>
 				</div>
 

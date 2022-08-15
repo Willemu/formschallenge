@@ -1,5 +1,5 @@
 .formchallenge {
-  width: 100%;
+  display: inline;
   justify-content: center;
   text-align: center;
   
@@ -13,4 +13,7 @@
 p {
   font-size: small;
 } 
-
+input {
+  align-content: flex-end;
+  text-align-last: right;
+}
